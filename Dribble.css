@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+     height: 35px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     justify-content: space-between;
+}
+#nav-part1
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* gap:40px;  Isse bhi elements ke beech mein gap aa Jayega jitne bhi pixel ka hum chahein*/
+}
+#nav-part1 h5{
+    
+    font-size: 10px;
+    margin-left: 25px;
+    color: #808080;
+}
+#nav img{
+    padding-left:5px;
+    height: 10px;
+}
+#nav-part2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+#nav-part2 button{
+    margin-right: 10px;
+    padding: 5px 12px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: 700px;
+    border: none;
+  
+}
+#nav-part2 #btn2{
+    background-color: #F082AC;
+    color: white;
+}  
+#center
+{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+/* Background mein video nhi lagaya ja sakta*/
+video{
+ height: 100%;
+ width: 100%;
+ /*background-size: ;
+ background-position: ;*/
+      /* Or */
+ object-fit: cover;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.413);
+
+}
+#info
+{
+    height: 50px;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+
+}
+#info h4{
+     background-color: rgba(0, 0, 0, 0.662);
+     color: white;
+     font-weight: 500px;
+     padding: 8px 10px;
+     border-radius: 35px;
+     cursor: pointer;
+     transition: all ease 1s;
+}
+ 
+/*#info #first{
+    background-color: white;
+    color:black ;
+}*/
+/* Aise bhi likh sakte hain bina Id banaye*/
+#info h4:nth-child(1)
+{
+    background-color: white;
+    color:black ;
+}
+
+#info h4:hover{
+    background-color: white;
+    color: black;
+}
+#overlay h1{
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#overlay p{
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+#overlay input{
+    width: 32%;
+    margin-top: 12px;
+    margin-left: 34% ;
+    padding: 5px 10px;
+    border-radius: 45px;
+    outline: none;
+}
+#info-2{
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 28px;
+     margin-right: 8%;
+
+}
+#info-2 h4{
+     margin-top: 10px;
+     background-color: rgba(0, 0, 0, 0.662);
+     font-size: 10px;
+     color: white;
+     border: 1px solid white;
+     padding: 8px 10px;
+     border-radius: 35px;
+     cursor: pointer;
+     transition: all ease 1s;
+     
+}
+#info-2 h3{
+    margin-top: 10px;
+    margin-left: 10%;
+    color: white;
+    font-size: 12px; 
+}
+#bottom{
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+}
+.elem{
+    background-color: red;
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 15px;
+    /* Aise bhi kr sakte hain*/
+}
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /*border-radius: 10px;*/
+}
